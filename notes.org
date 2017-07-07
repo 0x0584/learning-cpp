@@ -27,3 +27,14 @@
 
    when you create a class you have ensure that the users, indeed programmer, shouldn't touch parts that are internal mechanisms which are not a part of the interface; thus internal/private partes.
 
+** reusing units of code
+*** reusing the implemetation
+    this can be achieve by creating a member object of class A inside class B.
+in theory, class B can have as much as member object as it needs to. this concept is called /composition/ or /aggregation/ 
+
+*** reusing the interface
+    this is often referred as /inheritance/ which is the act of reusing all the data members and functionality that exists in the base-class, /although teh private ones/, in a addition to new ones to construct a new class, derived-class. 
+
+    all the messages that the base class can receive, could be received from the derived class too. and since the messages determine the type, thus the /base class and the derived class has the same type/
+
+    beside the fact that the derived-class could add a new interface in addition to the base-interface which stay untouched, the base-interface could be overridden; keeping the same interface but only adjust it to the new type
