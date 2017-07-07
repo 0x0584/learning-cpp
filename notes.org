@@ -1,0 +1,29 @@
+* OO abstraction
+** OO: five characteristics
+*** everything is an /object/
+    you can model, in theory, any problem using objects. /objects store data/, and could be /requested to do some operation/ on their data 
+
+*** a program is just a /bunch of objects/
+    you can construct a program by using /multiple objects/ which tell each other what to do by /sending messages between to each other/
+
+*** objects has their *own memory*
+    every /new-kind object/ is is made up of other objects so you can hide the complexity of a certain program using objects, which make large programs looks simple
+
+*** every object has a type
+    typically, an object is just an instance of a /class/. one of the class characteristics is telling /which messages can a certain object send/.
+
+*** objects of the /same type/ can *receive* the /same messages/
+    a ~Dog~  is also an ~Animal~ so we can send a message to a ~Dog~ object to tell it to ~Eat()~
+
+** class abstraction
+   the OO programming is about creating new data types; objects. all the OO programming languages use the keyword ~class~ as it refers to /type/, adn vice versa.
+
+   a class describes a set of /objects/ that have *identical* charactirictis -- =data members= and behaviors -- =functionality=. the programming system take care of the new class as it's a built-in class
+ 
+   a class determine the /object interface/; what request you could establish to an instance of this class. the class must have a /function/ associates with each possible request 
+   
+** hiding the implementations
+   the main goal of hiding the class implementation is to offer to the programmer only what's necessary and hide everything else. this protocol is to ensure that the programmer does not use so that the class creator can change the implementation without affecting having an impact on the programmer source code. /the concept of implementation hiding cannot be over-emphasized/.
+
+   when you create a class you have ensure that the users, indeed programmer, shouldn't touch parts that are internal mechanisms which are not a part of the interface; thus internal/private partes.
+

@@ -1,10 +1,26 @@
 #include <iostream>		// input and output header
-#include <string>		// string header
 
-using namespace std;		// standard namespace
+using namespace std;		// standard library namespace
 
-// the main entry point of the program
-int main()
+class Foo {			// Foo class
+private:			// inside Foo
+				// by default, all members of a
+				// class are private
+  int i;
+  float f;
+  void m1() const;		// private method signature 
+
+protected:			// class : Foo
+  double j;
+  void m3() const;		// protected method signature
+  
+public:				// outside Foo
+  int x;
+  float y;
+  void m2() const;		// public method signature
+};
+
+int main()			// the main entry point 
 {
   return 0;  
 }
