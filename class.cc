@@ -1,4 +1,6 @@
 #include <iostream>		// input and output header
+#include <stdio.h>
+
 using namespace std;		// standard library namespace
 
 class Foo {
@@ -14,7 +16,8 @@ public:				// outside Foo
   void m2() const;		// public method signature
 };
 
-int main()			// the main entry point 
-{
+				// the main entry point 
+int main(int argc, char **argv) {
+
   return 0;  
-}
+} ///:~

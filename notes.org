@@ -38,3 +38,9 @@ in theory, class B can have as much as member object as it needs to. this concep
     all the messages that the base class can receive, could be received from the derived class too. and since the messages determine the type, thus the /base class and the derived class has the same type/
 
     beside the fact that the derived-class could add a new interface in addition to the base-interface which stay untouched, the base-interface could be overridden; keeping the same interface but only adjust it to the new type
+
+* OO programming approach: Analysis and design
+  so the methodology to create a program in OO is to answer to questions:
+
+  + what are the objects
+  + what are their interfaces
