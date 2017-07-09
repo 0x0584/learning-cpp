@@ -4,6 +4,8 @@
 #include <fstream>
 #include <vector>
 
+#define FOOSIZE 5
+
 using namespace std;
 
 int main(int argc, char **argv){
@@ -13,13 +15,20 @@ int main(int argc, char **argv){
     4, 5, 6
   };
 
-  for(i = 0; i < 15; ++i)
+  for(i = 0; i < FOOSIZE; ++i)
     vi.push_back(i*2);		// push_back() adds a new element
-				// to the end of the vector
 
   // size() gives us the length of the vector
   for(i = 0; i < vi.size(); ++i)
-    cout << i << "\t" << vi[i] << endl;
+    cout << i << ':' << vi[i] << ' ';
+  cout << endl;
+  
+  for(i = 0; i < vi.size(); ++i)
+    vi[i] = vi[i]*2;
+
+  for(i = 0; i < vi.size(); ++i)
+    cout << i << ':' << vi[i] << ' ';
+  cout << endl;
 
   // another example using strings
   // and a new way to take input
@@ -27,7 +36,7 @@ int main(int argc, char **argv){
   ifstream ins("foo.txt");	// input file stream
   vector<string> vs;		// vector of strings
   string tmp;
-  
+
   while(ins >> tmp) vs.push_back(tmp);
 
   i = 0;
