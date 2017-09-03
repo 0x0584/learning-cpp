@@ -1,0 +1,35 @@
+* Further Readings
+** Algorithms and  Data Structures
+   + [ ] The Art of Computer Programming by Donald E. Knuth
+   + [ ] Algorithms by Robert Sedgewick (/advanced/)
+   + [ ] Introduction to Algorithms, A Creative Approach by Udi Manber
+   + [ ] Introduction to Algorithms by Cormen, Leiserson, and
+   Rivest (/advanced/)
+   + [ ] The Algorithm Design Manual by Steven S. Skiena
+
+** Computability Theory
+   + [ ] Discrete Structures, Logic, and Computability by James L.Hein
+
+** Problem Solving
+   + [ ] How to Solve It by George Pólya (/classic/)
+   + [ ] Strategies for Creative Problem Solving by Folger and LeBlanc
+   + [ ] Effective Problem Solving by Marvin Levine
+   + [ ] Problem Solving & Comprehension by Arthur Whimbey and Jack Lochhead
+   + [ ] Puzzle-Based Learning by Zbigniew and Matthew Michaelewicz
+   + [ ] The Origin of Consciousness in the Breakdown of the Bicameral Mind by Julian Jaynes
+   + [ ] “Cogito, Ergo Sum! Cognitive Processes of Students Dealing with Data Structures” by Dan Aharoni
+
+** Design Patterns
+   + [ ] Design Patterns: Elements of Reusable Object-Oriented Software by Gamma, Helm, Johnson, and Vlissides 
+   + [ ] Object-Oriented Software Design and Construction with C ++ by Dennis Kafura
+   + [ ] Object-Oriented Design Heuristics by Arthur J. Riel
+
+** Programming 
+   + [ ] The Practice of Programming by Kernighan and Pike’
+   + [ ] The Mythical Man-Month: Essays on Software Engineering by Frederick P. Brooks
+
+** CPP Programming 
+   + [ ] The C ++ Programming Language by Bjarne Stroustrup
+   + [ ] The Annotated C ++ Reference Manual by Ellis and Stroustrup
+   + [ ] On to C++ by Patrick Henry Winston
+   + [ ] C++ How to Program by Deitel

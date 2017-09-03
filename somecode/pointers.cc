@@ -27,7 +27,7 @@ void foo(int *mem)
 int main(void)
 {
    // an integer (4 bytes) is allocated in heap memory.
-   int *mem = new int;
+   int *mem = new int[5];
  
    // call a function, passing the pointer, not the
    // actual int in memory, just a pointer to it.
