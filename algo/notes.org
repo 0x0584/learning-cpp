@@ -1,0 +1,26 @@
+* representing data for the computer
+  + type :: is a set of values (int, Person, etc..)
+  + data type :: is a type and its corresponding operations. it has a logical/physical implementations.
+  + abstract data type :: is the realization of a data type; its logical form
+  + data structure :: is the implementation of an ADT, is the physical implementation of a data type
+
+#+CAPTION: relationship between data type, adt and data structure 
+#+LABEL: Fig 1.
+#+BEGIN_SRC text
+	     +--------------------------------------------+
+	     |                 Data Type               	  |
+	     |  +--------------------------------------+  |
+	     |  | ADT:     	     Data Items:       |  |
+	     |	|  * Type            Logical Form      |  |
+	     |  |  * Operations                        |  |
+	     |	+--------------------------------------+  |
+	     |  +--------------------------------------+  |
+	     |  | Data Structure:    Data Items:       |  |
+	     |	|  * Storage Space   Physical Form     |  |
+	     |  |  * Subroutines                       |  |
+	     |	+--------------------------------------+  |
+	     +--------------------------------------------+
+#+END_SRC
+
+
+
