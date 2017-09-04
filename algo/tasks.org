@@ -1,3 +1,9 @@
+#+TITLE: Tasks todo..
+#+AUTHOR: Anas Rchid
+
+* The Source
+  Data Structures and Algorithm Analysis, Ed 3.2 (C++ Version) by Clifford A. Shaffer
+
 * Further Readings
 ** Algorithms and  Data Structures
    + [ ] The Art of Computer Programming by Donald E. Knuth
