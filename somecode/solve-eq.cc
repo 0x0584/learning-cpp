@@ -28,6 +28,6 @@ int main(int argc, char **argv) {
   
   if(x0 == x1) printf("one solution %lf", x1);
   else printf("two solutions: %lf and %lf", x0, x1);
-  
+
   return 0;
 }
