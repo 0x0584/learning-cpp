@@ -11,8 +11,10 @@
 
 bool isbalanced(const char *str);
 int isbalanced0(const char *str);
+#define NEGRAND(a,b) ((a)%(b) + (b))
 
 int main(int argc, char **argv) {
+  printf("%d", NEGRAND(-3, 2));
   if(argc != 2) printf("%s str\n", argv[0]), exit(-1);
   else printf("%s %d\n",
 	      isbalanced(argv[1]) ? "TRUE":"FALSE",
@@ -33,7 +35,7 @@ bool isbalanced(const char *s) {
 				// as true but it's not correct
 
   // implmentation of the previous algorithm
-  while(*s != '\0') diff += (*s++ == open) ? 1 : (-1);
+  while(*s) diff += (*s++ == open) ? 1 : (-1);
   
  RET: return !diff ? true : false;
  ERR: return false;
@@ -41,7 +43,7 @@ bool isbalanced(const char *s) {
 
 unsigned strlen(const char *s) {
   int len = 0;
-  while(s[len++] != '\0');
+  while(*(s + len++));
   return len;
 }
 
@@ -52,7 +54,7 @@ int isbalanced0(const char *s) {
   const char *ts = s, open = '(';
 
   // implmentation of the previous algorithm
-  while(*s != '\0') {
+  while(*s) {
     if((diff += (*s++ == open) ? 1 : (-1)) < 0) return index;
     else ++index;
   }
