@@ -16,7 +16,12 @@
 #define N_RINGS		(7)
 #define RINGS_DIFF	(1)
 
-int main(int argc, char **argv) {
 
+
+#define INT_VAR(name) int name
+
+int main(int argc, char **argv) {
+  INT_VAR(kaka);
+  
   return 0;
 }
